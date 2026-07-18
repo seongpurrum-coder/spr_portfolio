@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+html {
+  font-size: 10px;
+  overscroll-behavior: none;
+  cursor: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+address,
+caption,
+em {
+  font-style: normal;
+}
+
+caption,
+legend,
+hr {
+  display: none;
+}
+
+input,
+select,
+fieldset,
+textarea {
+  border: 0;
+  outline: none;
+  vertical-align: top;
+}
+
+img {
+  vertical-align: top;
+  border: 0;
+}
