@@ -533,6 +533,7 @@ nav ul li:hover a {
 
 .menu-right {
   width: 55%;
+  overflow: scroll;
 }
 
 .menu-project-list {

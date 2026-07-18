@@ -187,7 +187,7 @@ function changeProjectPage(callback) {
       totalPage.textContent = '2';
     } else {
       // 다음 7번만
-      showCardsByIndex([6]);
+      showCardsByIndex([6,7,8]);
       currentPage.textContent = '2';
       totalPage.textContent = '2';
     }
@@ -226,14 +226,11 @@ function changeProjectPage(callback) {
     if (filter === 'all') {
       renderAllDesktop();
       projectNav.classList.remove('is-hidden');
-    } else if (filter === 'uxui') {
-      showCardsByIndex([0, 1, 2]);
-      projectNav.classList.add('is-hidden');
-    } else if (filter === 'bx') {
-      showCardsByIndex([3]);
+    } else if (filter === 'web') {
+      showCardsByIndex([3, 4, 5]);
       projectNav.classList.add('is-hidden');
     } else if (filter === 'graphic') {
-      showCardsByIndex([4, 5, 6]);
+      showCardsByIndex([0, 1, 2, 6, 7, 8]);
       projectNav.classList.add('is-hidden');
     }
   }
